@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2018, 11:25:12 AM
+    Author     : QUANG HAI
+*/
+
+
+/*slider*/
+.img_slider{
+    width: 100%;
+    height: 550px;
+    margin-bottom: -200px;
+}
+.text_slider h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 115px;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+}
+.text_slider #h1_tsingy{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 50px;
+    font-family: 'Courgette', cursive;
+}
+.link_slider{
+    text-align: center;
+}
+.link_slider .link{
+    display: inline-table;
+}
+.link .traveltour1_slider{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.link .traveltour2_slider{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.link .traveltour3_slider{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.link .traveltour4_slider{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.link_slider .link i{
+    color: #848484;
+}
+.link_slider .link a{
+    text-decoration: none;
+    width: 10px;
+    color: #e8e8e8;
+}
+
+/*content1*/
+.page_south_america{
+    background: #f7f7f7;
+    
+}
+.Page_South_America1{
+    background: #fff;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+}
+.magin{
+    margin-top: 30px;
+}
+#content1{
+    margin-bottom: 30px;
+}
+#content1 img{
+    width: 100%;
+}
+#content1 iframe{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 300px;
+}
+.Latest_post{
+    margin-bottom: 30px;
+}
+.Latest_post .title_latest_post{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Courgette', cursive;
+}
+.title_latest_post .col-md-3 {
+    width: 100%;
+    height: 100px;
+}
+#content_latest_post  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+#content_latest_post  a:hover{
+    color: #007bff;
+}
+#content_latest_post img{
+    width: 100%;
+    height: 50px;
+}
+/*//*/
+.interest .title_interest{
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Courgette', cursive;
+}
+#content_interest a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+#content_interest #news2 a{
+    color: #333;
+}
+#content_interest #news2 a:hover{
+    color: #007bff;
+}
+#content_interest img{
+    width: 100%;
+}
+.ads_right button{
+    background:#fff;
+    border-radius: 5px;
+    color:#181816;
+    box-shadow: 2px 2px 2px black;
+    font-size: 12px;
+}
+/*content2*/
+.contnt2{
+}
+#content2 a{
+    text-decoration: none;
+}
+.title_content2{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #F7BE81;
+    font-family: 'Courgette', cursive;
+}
+.p1_content2{
+    color: #333;
+    font-size: 14px;
+}
+.p1_content2:hover{
+    color: #007bff;
+}
+#content2 .img2_content2 {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 200px;
+}

@@ -1,0 +1,176 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 22, 2018, 8:13:30 PM
+    Author     : QUANG HAI
+*/
+
+/*Slider*/
+.img_slider{
+    height: 500px;
+    width: 100%;
+    margin-bottom: -200px;
+}
+
+.text_slider h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 126px;
+    font-family: 'Courgette', cursive;
+}
+
+/*content1*/
+.border{
+    background: #f7f7f7;
+}
+#border1{
+    background: #fff;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+}
+.magin{
+    margin-top: 30px;
+}
+/*left*/
+.img_content1{
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.img_content1:hover{
+    opacity: 0.8;
+}
+.col-12 .h1_content1 {
+    margin-left: 30px;
+}
+.h1_content1{
+    display: inline-table;
+    text-decoration: none;
+    color: #363636;   
+    font-family: 'Courgette', cursive;
+}
+.h1_content1:hover{
+    color: #555555;
+}
+.btn_content1 {
+    display: inline-table;
+    text-decoration: none;
+    background: #363636;
+    text-transform: uppercase;
+    border: 1px solid #363636;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+    font-weight: 700;   
+}
+.btn_content1:hover{
+    background: #555555;
+    display: inline-table;
+    text-decoration: none;
+}
+.btn_content1 p{
+    font-size: 12px;
+    color: #fff;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+/*right*/
+.recent_posts{
+    margin-bottom: 50px;
+}
+.title_recent_posts{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Courgette', cursive;
+}
+.recent_posts a{
+    color: #363636;
+    text-decoration: none;
+    font-size: 14px;
+}
+.recent_posts a:hover{
+    color: #007bff;
+}
+.recent_tours{}
+.title_recent_tours{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Courgette', cursive;
+}
+.recent_tours img {
+    width: 80px;
+    height: 55px;
+}
+.recent_tours a{
+    color: #363636;
+    text-decoration: none;
+    font-size: 14px;
+}
+.recent_tours a:hover{
+    color: #007bff;
+}
+#tours1 {
+    margin-bottom: 60px;
+}
+#tours2{
+    margin-bottom: 60px;
+}
+#tours3 {
+    margin-bottom: 60px;
+}
+.ads_right button{
+    background:#fff;
+    border-radius: 5px;
+    color:#181816;
+    box-shadow: 2px 2px 2px black;
+    font-size: 12px;
+}
+/*next page*/
+#page{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.prev_page {
+    color: #27272b;
+}
+.prev_page:hover{
+    color: #fff;
+    background: #555555;
+}
+.next_page {
+    color: #27272b;
+}
+.next_page:hover{
+    color: #fff;
+    background: #555555;
+}
+.page_num{
+    color: #27272b;
+}
+.page_num:hover{
+    background: #555555;
+    color: #fff;
+}
+#page .page_num {
+    text-decoration: none;
+    margin-right: 10px;    
+}
+
+#page .prev_page{
+    text-decoration: none;
+    margin-right: 10px;
+}
+#page .next_page{
+    text-decoration: none;
+}
+

@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 8, 2018, 7:43:45 PM
+    Author     : QUANG HAI
+*/
+
+.map a {
+    text-decoration: none;
+    color: #333;
+}
+.map a:hover{
+    color: #999;
+}
+.home {
+    margin-bottom: 5px;
+}
+.child_news{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.child_africa{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.child_europe{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.child_asia{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.child_america{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.gallery{
+    margin-bottom: 5px;
+}
+.child_sevice {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.child_about{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.Contact{
+    margin-bottom: 20px;
+}

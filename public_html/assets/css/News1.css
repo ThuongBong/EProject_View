@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2018, 11:15:51 AM
+    Author     : Phuong
+*/
+.Comment{
+    width: 550px;
+    height: auto;
+}
+.Pagenew{
+    background: #f7f7f7;
+}
+.Pagenew1{
+    background: #fff;
+    border-left: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+    padding-top: 20px;
+    margin-top: 70px;
+}
+.contentnewTitle a{
+    text-decoration: none;
+}
+.contentnewTitle .Title1{margin-top: 20px;}
+.contentnewTitle h4{
+    color: #d33;
+    font-family: 'Courgette', cursive;
+}
+.contentnewTitle img{
+    width: 100%;
+}
+.meta1{
+    
+}
+.meta1> span> h6{
+    color: #616161;
+    font-size: 14px;
+}
+.meta1> span> h6> a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 14px;
+}
+.meta1> span> h6> a:hover{
+    color: #a161bf;
+}
+
+.contentnewTitle1 img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contentnewTitle1 h6{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contentnewTitle1 p{
+}
+
+.navnew{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #F7BE81;
+}
+.Related{
+    margin-top: 100px;
+}
+.Related h5 {
+    font-family: 'Courgette', cursive;
+}
+.navnew img{
+    margin-bottom: 10px;
+}
+.navnew a{
+    text-decoration: none;
+}
+.navnew img{ width: 100px; height: 80px;}
+.navnew p{color: #333   ; margin-bottom: 0px; font-size: 14px;}
+.Navnew1 a{
+    text-decoration: none;
+}
+.Navnew1 img{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.interested h5{
+    font-family: 'Courgette', cursive;
+}
+.Navnew1 p{color: #29292b;}
+.InterestedNew a{
+    text-decoration: none;
+}
+.InterestedNew h5{
+    text-align: center;
+    border-bottom: 1px solid #F7BE81;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Courgette', cursive;
+}
+.InterestedNew img{
+    width: 100%;
+    height: 173px;
+    margin-bottom: 5px;
+}
+.InterestedNew p{
+    color: #29292b;
+}
+
+.ads_right button{
+    background:#fff;
+    border-radius: 5px;
+    color:#181816;
+    box-shadow: 2px 2px 2px black;
+    font-size: 12px;
+}

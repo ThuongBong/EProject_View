@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 26, 2018, 11:41:27 AM
+    Author     : NAM TRUONG
+*/
+
+body{
+    font-family: sans-serif;
+}
+.item1{
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/images/contact/caucang.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+  box-sizing: border-box;
+  height: 500px;
+  margin: 100px auto 0;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 40px;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+form h1 {
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: 'Courgette', cursive;
+}
+ 
+ input {
+  margin:25px 35px;
+  width: 80%;
+  display: block;
+  border: none;
+  border-bottom: solid 1px #1abc9c;
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+ input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder{
+  color: #1abc9c;
+  font-size: 11px;
+  transform: translateY(-10px);
+  visibility: visible !important;
+}
+ .itembutton {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 80%;
+  color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 35px;
+  margin-top: -10px;
+}
+ .itembutton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+#map{
+    margin-top: 150px;
+}
+.item3 img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    -webkit-transition: all 0.7s ease; transition: all 0.7s ease;
+}
+.item3 img:hover{
+-webkit-transform:scale(1.2); transform:scale(1.2);
+}
+.item4 h5{
+    font-family: 'Rammetto One', cursive;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 20px;
+}
+.item4 a{
+    font-family: 'Rammetto One', cursive;
+font-family: 'Bitter', serif;
+}
+.item5{
+    margin-top: 20px;
+    font-family: 'Bangers', cursive;
+}
+.contact{
+    text-transform: uppercase;
+    color: #1abc9c;
+    text-align: center;
+}
+.item6:hover{
+    color: #4780F2;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 20px;
+}
+.item7{
+    height: 60px;
+}
+

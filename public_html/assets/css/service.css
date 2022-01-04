@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2018, 5:23:22 PM
+    Author     : admin
+*/
+.service{
+    margin-top: 50px;
+}
+
+/* service */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headerService{
+    width: 100%;
+    height: 400px;
+}
+.header-link1 img{
+    width: 100%;
+    height: 400px;
+    border: 2px solid #BEB8A2;
+}
+.top{
+    width: 100%;
+    min-height: 600px;
+    background:#FEFDF8;
+}
+.nen{
+    margin-bottom: 40px;
+}
+.phong1{
+    margin-top: 30px;
+}
+.phong1 h2{
+    color: #181816;
+    font-family: 'Courgette', cursive;
+}
+.phong1{
+    border-bottom: 2px solid #181816;
+}
+.img2{
+    border: 1px solid #181816  ;
+    background: #F5ECEA ;
+    border-radius: 3px;
+}
+.img2 img{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 230px;
+}
+.img1 .img2 a{
+    text-decoration: none;
+    color: #181816;
+    font-size:20px;
+}
+.img1 .img2:hover a{
+    color:#7E7A6B;
+}
+.img1 .img2:hover img{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.img1 .img2{
+    overflow: hidden;
+}
+.img1 .img2 img{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.nen1{
+    margin-bottom: 20px;
+}
+/* content */
+.content{
+   width: 100%;
+   min-height: 400px;
+   background:#FEFDF8;
+   border-bottom: 2px solid #6A6861;
+}
+.service-font{
+    padding-top: 20px;
+}
+.service-font p{
+    color: #d27e04;
+    font-size: 35px;
+    font-family: 'Courgette', cursive;
+}
+.service-font{
+    margin-bottom: 15px;
+}
+.service-intent{
+    height: 230px;
+    border :1px solid #181816;
+    background: #FEFDF8;    
+}
+.service-intent h5{
+    padding-top: 5px;
+}
+.content1{
+    width: 100%;
+    min-height: 380px;
+    background:#FEFDF8;
+}
+.top{
+    margin-bottom: 30px;
+}
+.content1-img img{
+    width: 100%;
+    height: 330px;
+    box-shadow: 2px 2px 2px;
+}
+.content1-font{
+    margin-top: 5px;
+}
+.content1-font p{
+    color: #d27e04;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+.content1-font li{
+   list-style-type: none;
+}
+

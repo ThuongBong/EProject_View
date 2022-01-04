@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 5, 2018, 11:29:48 PM
+    Author     : Le Hoang Anh
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2018, 12:15:08 AM
+    Author     : Le Hoang Anh
+*/
+.contentabout{
+    margin-top: 100px;
+}
+.img-box{
+    
+  opacity: 1;
+  display: block;
+  position: relative;
+  margin-left: -11px;
+}
+.img-box:after{
+  content:"";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.img-box ul{
+  position: absolute;
+  z-index: 2;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+  padding-left: 0px;
+  height: 0px;
+  margin:0px;
+  opacity: 0;
+}
+.img-box:after, .img-box ul, .img-box ul li{
+  -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.img-box ul li{
+  width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+  display: inline-block;
+}
+.img-box a{
+  color:#fff;
+}
+.img-box:hover:after{
+  opacity: 1;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul a{
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+  border-color: #fff;
+  color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+.slider{
+    margin-bottom: 30px;
+}
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 320px;
+    background: #181816;
+    font-size: 14px;
+}
+
+.footer-font{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-font h3{
+    color: #61D52B;
+    border-bottom: 1px solid #605d58;
+    padding-bottom: 3px;
+}
+
+.footer-font a{
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted #605d58;
+    color: whitesmoke;
+}
+.footer-font a i{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 5px;
+    color: whitesmoke;
+}
+.footer-font a{
+    letter-spacing: 1px;
+}
+.footer-font1 h3{
+    color: #61D52B;
+    border-bottom: 1px solid #605d58;
+    padding-bottom: 3px;
+}
+.footer-font5{
+    padding-bottom: 5px;
+}
+.footer-font1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-font1 a{
+    float: left;
+    text-decoration: none;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    
+}
+.footer-font1:hover a{
+    text-decoration: none;
+    color: #61D52B;
+}
+.footer-font:hover a i{
+    text-decoration: none;
+    color:white;
+}
+.footer-font:hover a{
+    color: whitesmoke;
+}
+.footer-font1 a{
+    color:#63C138; 
+}
+.footer-font1 p{
+    color:white;
+    padding-left: 3px;
+}
+.footer-font2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer-font2 h3{
+    color: #61D52B;
+    border-bottom: 1px solid #605d58;
+    padding-bottom: 3px;
+}
+.footer-img img{
+    width: 100%;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px #605d58;
+    margin-top: 8px;
+}
+.footer-img1 h6{
+    color:white;
+    margin-top: 7px;
+}
+.footer-img1 p{
+    color:white;
+    line-height: 1.5;
+}
+.footer-img1 a{
+    text-decoration: none;
+    color:#61D52B; 
+}
+.footer-img1:hover a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-icon{
+    font-size: 30px;
+    
+}
+.footer-icon a i{
+    padding: 2px 10px 0 10px;
+}
+.footer1{
+    width: 100%;
+    min-height: 48px;
+    background: #63C138;
+}
+.footer1-link{
+    margin-top: 12px;
+}
+.footer1-link a{
+    text-decoration: none;
+    color:white;
+    border-right: 1px solid white;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+}
+.footer1-link2{
+    margin-top: 12px;
+}
+.footer1-link2 p{
+    float: right;
+    color:white;
+    font-size: 14px;
+}

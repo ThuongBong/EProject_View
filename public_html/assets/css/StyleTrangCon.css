@@ -1,0 +1,383 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 1, 2018, 5:23:45 PM
+    Author     : admin
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    width: 100%;
+    min-height:600px;
+    background:#F5F4E8;
+    border-bottom: 2px solid #838070;
+    margin-top: 70px;
+}
+.phong h5{
+    float: left;
+}
+.phong{
+    margin-top: 20px;
+    font-family: 'Courgette', cursive;
+}
+.phong p{
+    float: left;
+    padding-top: 2px;
+}
+.content-img img{
+    width: 95%;
+    height: 480px;
+}
+.content-img:hover img{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.content-img{
+    overflow: hidden;
+}
+.content-img img{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.content-link{
+    width: 60%;
+    height: 50px;
+    background: #16A8E3;
+    margin-bottom: 35px;
+}
+.content-link a h3{
+    padding-top: 5px;
+    color: white;
+}
+.content-link:hover a{
+    text-decoration: none;
+}
+.content-phong1{
+    margin-bottom: 20px;
+}
+.content-phong1 h3{
+    font-family: 'Courgette', cursive;
+}
+.content-popular img{
+    width: 100%;
+    height: 130px;
+}
+.content-popular:hover img{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.content-popular{
+    overflow: hidden;
+}
+.content-popular img{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.content-popular1 h5{
+    color: #636355;
+    padding-bottom: 5px;
+}
+.link a{
+    display: inline-block;
+    background: #2D2D29;
+    padding:4px 6px 4px 6px;
+}
+.link:hover a{
+    background: #B2B396;
+}
+.link:hover a{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.link a{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.content-popular1 .link a{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.content-popular1 .link:hover a{
+    color: #2C2C28;
+}
+.distance{
+    margin-bottom: 20px;
+}
+
+.distance1{
+    margin-bottom: 20px;
+}
+
+.distance2{
+    margin-bottom: 20px;
+}
+.port{
+    width:100%;
+    min-height: 500px;
+    background:#F5F4E8;
+}
+.phong1 {
+    margin-top: 20px;
+    border-bottom: 2px solid #817E6E  ;
+}
+.phong1 h3{
+    font-family: 'Courgette', cursive;
+}
+.distance3{
+    margin-bottom: 40px;
+}
+.port-icon i{
+    float: left;
+    padding-right: 5px;
+}
+.port-icon{
+    margin-bottom: 20px;
+}
+.port-icon3 h5{
+    font-family: 'Courgette', cursive;
+}
+.port-icon3 p{
+    float: left;
+    padding-left:20px;
+}
+.port-icon4 h5{
+    font-family: 'Courgette', cursive;
+}
+.port-icon1 i{
+    float: left;
+    padding-right: 5px;
+}
+.advertise{
+    width: 100%;
+    height: 200px;
+    background:whitesmoke;
+    border: 2px solid #46453F;
+    margin-top: 20px;
+}
+.advertise marquee{
+    text-align: center;
+}
+.advertise h6 a{
+    color: #3B392B;
+}
+.advertise:hover h6 a{
+    text-decoration: none;
+    
+}
+.phong2{
+    margin-top: 20px;
+    border-bottom: 2px solid #817E6E  ;
+}
+.phong2 h3 {
+    font-family: 'Courgette', cursive;
+}
+.port1{
+    width: 100%;
+    min-height: 500px;
+    border-top: 2px solid #46453F  ;
+    border-bottom: 2px solid #46453F;
+    background: #F5F4E8;
+}
+.phong3 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong3:hover button{
+   background:white;
+}
+.phong4 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong4:hover button{
+    background: white;
+}
+.phong5 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong5:hover button{
+    background: white;
+}
+.phong6 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong6:hover button{
+    background: white;
+}
+.phong7 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong7:hover button{
+    background: white;
+}
+.phong8 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong8:hover button{
+    background: white;
+}
+.phong9 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong9:hover button{
+    background: white;
+}
+.phong10 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong10:hover button{
+    background: white;
+}
+.phong11 p{
+    display: none;
+    float: left;
+    font-size: 15px;
+}
+.phong11:hover button{
+    background: white;
+}
+.phong3 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong4 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong5 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong6 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong7 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong8 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong9 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong10 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.phong11 button{
+    padding: 2px 3px 2px 3px;
+    background: #96927A;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#524F3D;
+}
+.distance5{
+    margin-bottom: 30px;
+}
+.information{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.information h3{
+    font-family: 'Courgette', cursive;
+}
+.information1 img{
+    width: 100%;
+    height: 80px;
+}
+.information2 p{
+    font-size:25px;
+    color: black;
+}
+.information2 .link1 a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    background: black;
+}
+.information3{
+    height: 100px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.information1:hover img{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.information1{
+    overflow: hidden;
+}
+.information1 img{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.link1 a{
+    display: inline-block;
+    background: #2D2D29;
+    padding:4px 6px 4px 6px;
+}
+.link1:hover a{
+    background: #B2B396;
+}
+.link1:hover a{
+    -webkit-transform:scale(1.1); transform:scale(1.1);
+}
+.link1 a{
+    -webkit-transition: all 1.2s ease; transition: all 1.2s ease;
+}
+.information2 .link1 a{
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.information2 .link1:hover a{
+    color: #2C2C28;
+}
+.ads_right button{
+    background:#fff;
+    border-radius: 5px;
+    color:#181816;
+    box-shadow: 2px 2px 2px black;
+    font-size: 12px;
+}
